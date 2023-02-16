@@ -1,0 +1,5 @@
+#!/bin/bash 
+chmod 777 *
+git add . 
+git commit -m $1 # custom massege for push  
+echo "philopaterwaheed" | git push 
