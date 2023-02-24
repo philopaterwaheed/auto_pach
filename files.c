@@ -23,7 +23,7 @@ switch (type)
 	case 2 : 
 	//strcat(input,".c");
 	file = fopen (input,"w+");
-	strcat(command, "echo '#include <stdio.h>\n/**\n* main - does some thing \n* Return: 0\n*/\nint main(void)\n{\n\treturn (0);\n}'>> ");
+	strcat(command, "echo '#include <stdio.h>\n/**\n* main - does some thing\n* Return: 0\n*/\nint main(void)\n{\n\treturn (0);\n}'>> ");
 	break;
 }
 strcat(command,input);
