@@ -1,5 +1,17 @@
-#!/bin/bash 
-chmod 777 *
-git add . 
-git commit -m $1 # custom massege for push  
-echo "philopaterwaheed" | git push 
+#!/bin/bash
+
+username="philopaterwaheed"
+password=
+repository="simple_shell"
+
+# Set up the repository URL
+repo_url="https://${username}:${password}@github.com/${username}/${repository}.git"
+
+# Add your desired files to the repository
+git add .
+
+# Commit the changes
+git commit -m "Automatic commit"
+
+# Push to GitHub
+git push "${repo_url}"
